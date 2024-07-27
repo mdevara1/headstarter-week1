@@ -1,0 +1,70 @@
+<div class="landing-container">
+    <div class="content text-center">
+      <h1>Hi! I am Ramani Manasa Devarabhatla</h1>
+    </div>
+  </div>
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-bottom navbar-light bg-light">
+    <div class="container-fluid justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" (click)="scrollToSection('about')">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="scrollToSection('resume')">Resume</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="scrollToSection('skills')">skills</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="scrollToSection('projects')">My Projects</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="scrollToSection('hobbies')">Hobbies</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="about" class="section">
+    <app-about></app-about>
+  </div>
+
+  <div id="resume" class="section">
+    <app-resume></app-resume>
+  </div>
+  <div id="skills" class="section">
+    <app-skills></app-skills>
+  </div>
+
+  <div id="projects" class="section">
+    <app-projects></app-projects>
+  </div>
+  <div id="hobbies" class="section">
+    <app-hobbies></app-hobbies>
+  </div>
+  <div id="contact" class="section bg-custom py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Contact Me</h2>
+      <p class="mb-4">If you’d like to get in touch, feel free to reach out via the links below:</p>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <a href="https://www.linkedin.com/in/manasadevarabhatla28" target="_blank" class="btn btn-outline-primary btn-block">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+        <div class="col-md-4 mb-3">
+            
+          <span class="btn btn-outline-danger btn-block  ">
+            mdevara1&#64;binghamton.edu
+        </span> 
+            
+          
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="https://github.com/mdevara1" target="_blank" class="btn btn-outline-dark btn-block">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

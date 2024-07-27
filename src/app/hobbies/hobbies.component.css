@@ -1,0 +1,43 @@
+/* Style for the hobby box */
+.hobby-box {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px; /* Padding inside the box */
+  }
+  
+  /* Gallery container */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 10px; /* Space between gallery items */
+  }
+  
+  /* Gallery item */
+  .gallery-item {
+    flex: 1 1 calc(33.333% - 10px); /* Three items per row with gap */
+    box-sizing: border-box;
+  }
+  
+  /* Image styling */
+  .gallery-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space caused by inline-block */
+  }
+  
+  /* Content styling */
+  .hobby-content {
+    margin-bottom: 15px; /* Space below the content */
+  }
+  
+  .hobby-content h4 {
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  .hobby-content p {
+    margin-bottom: 0; /* Space below the paragraph */
+  }
+  

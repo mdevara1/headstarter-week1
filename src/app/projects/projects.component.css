@@ -1,0 +1,40 @@
+/* Container for all projects */
+.container {
+    padding: 20px;
+  }
+  
+  /* Project container styles */
+  .project-container {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  /* Image styling */
+  .project-container img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+  }
+  
+  /* Details section styling */
+  .project-details {
+    padding: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .project-container {
+      padding: 5px; /* Adjust padding for smaller screens */
+    }
+  }
+  

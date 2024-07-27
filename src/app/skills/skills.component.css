@@ -1,0 +1,25 @@
+/* Style for each category box */
+.category-box {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 30px; /* Space between category boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Style for progress bars */
+  .progress {
+    background-color: #e9ecef; /* Light background for progress bar */
+    border-radius: 5px; /* Rounded corners */
+    height: 20px; /* Height of the progress bar */
+    margin-top: 5px; /* Space above progress bar */
+  }
+  
+  .progress-bar {
+    background-color: #007bff; /* Blue color for filled part of progress bar */
+    height: 100%; /* Full height of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    transition: width 0.6s ease; /* Smooth width transition */
+  }
+  
